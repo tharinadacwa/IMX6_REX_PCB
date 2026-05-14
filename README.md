@@ -1,6 +1,6 @@
 # iMX6 Rex — 12-Layer PCB Design
 
-![PCB Front](iMX6_Rex_V1I1_PCB.png)
+![PCB Front](iMX6%20Rex_V1I1_PCB.png)
 
 > A custom 12-layer PCB design for the **Wandboard iMX6 Rex** System-on-Module (SoM), built upon the open-source schematic and fully routed by hand.
 
@@ -17,27 +17,27 @@ The board features a dense 12-layer stackup to accommodate DDR memory routing, h
 ## 🖼️ PCB Images
 
 ### 3D Render — Front
-![PCB Front Render](iMX6_Rex_V1I1_PCB.png)
+![PCB Front Render](iMX6%20Rex_V1I1_PCB.png)
 
 ### 3D Render — Back
-![PCB Back Render](iMX6_Rex_V1I1_PCB_B.png)
+![PCB Back Render](iMX6%20Rex_V1I1_PCB_B.png)
 
 ### Layer Stackup Views
 
 | Layer | Preview |
 |-------|---------|
-| L1 — Top Copper | ![L1](L_1.png) |
-| L2 | ![L2](L_2.png) |
-| L3 | ![L3](L_3.png) |
-| L4 | ![L4](L_4.png) |
-| L5 | ![L5](L_5.png) |
-| L6 | ![L6](L_6.png) |
-| L7 | ![L7](L_7.png) |
-| L8 | ![L8](L_8.png) |
-| L9 | ![L9](L_9.png) |
-| L10 | ![L10](L_10.png) |
-| L11 | ![L11](L_11.png) |
-| L12 — Bottom Copper | ![L12](L_12.png) |
+| L1 — Top Copper (Signal) | ![L1](L_1.png) |
+| L2 — Ground | ![L2](L_2.png) |
+| L3 — Signal | ![L3](L_3.png) |
+| L4 — Ground | ![L4](L_4.png) |
+| L5 — Power | ![L5](L_5.png) |
+| L6 — Power | ![L6](L_6.png) |
+| L7 — Power | ![L7](L_7.png) |
+| L8 — Power | ![L8](L_8.png) |
+| L9 — Ground | ![L9](L_9.png) |
+| L10 — Signal | ![L10](L_10.png) |
+| L11 — Ground | ![L11](L_11.png) |
+| L12 — Bottom Copper (Signal) | ![L12](L_12.png) |
 
 ---
 
@@ -103,20 +103,20 @@ The board features a dense 12-layer stackup to accommodate DDR memory routing, h
 ```
 iMX6-Rex-PCB/
 ├── README.md
-├── iMX6_Rex_V1I1_PCB.png       # 3D render — front
-├── iMX6_Rex_V1I1_PCB_B.png     # 3D render — back
-├── L_1.png                      # Layer 1 (Top)
-├── L_2.png                      # Layer 2
-├── L_3.png                      # Layer 3
-├── L_4.png                      # Layer 4
-├── L_5.png                      # Layer 5
-├── L_6.png                      # Layer 6
-├── L_7.png                      # Layer 7
-├── L_8.png                      # Layer 8
-├── L_9.png                      # Layer 9
-├── L_10.png                     # Layer 10
-├── L_11.png                     # Layer 11
-└── L_12.png                     # Layer 12 (Bottom)
+├── iMX6 Rex_V1I1_PCB.png       # 3D render — front
+├── iMX6 Rex_V1I1_PCB_B.png     # 3D render — back
+├── L_1.png                      # Layer 1 — Signal (Top)
+├── L_2.png                      # Layer 2 — Ground
+├── L_3.png                      # Layer 3 — Signal
+├── L_4.png                      # Layer 4 — Ground
+├── L_5.png                      # Layer 5 — Power
+├── L_6.png                      # Layer 6 — Power
+├── L_7.png                      # Layer 7 — Power
+├── L_8.png                      # Layer 8 — Power
+├── L_9.png                      # Layer 9 — Ground
+├── L_10.png                     # Layer 10 — Signal
+├── L_11.png                     # Layer 11 — Ground
+└── L_12.png                     # Layer 12 — Signal (Bottom)
 ```
 
 ---
@@ -124,7 +124,7 @@ iMX6-Rex-PCB/
 ## 📜 Credits & Open Source Acknowledgement
 
 - **Reference Schematic:** [Wandboard iMX6 Rex](https://www.wandboard.org/) — open-source hardware project
-- **PCB Layout:** Designed from scratch by **[Your Name]**
+- **PCB Layout:** Designed from scratch by **Tharinda**
 - The schematic was used as a reference only; all component placement, routing, layer stackup, and design decisions were made independently
 
 ---
