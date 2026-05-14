@@ -60,11 +60,9 @@ The board features a dense 12-layer stackup to accommodate DDR memory routing, h
 | Parameter | Value |
 |-----------|-------|
 | **Layers** | 12 |
-| **Board Dimensions** | ~67.6 × 37.6 mm (SoM standard) |
 | **Min Trace Width** | Controlled impedance differential pairs |
 | **Mounting Holes** | 4× GND-connected mounting points |
-| **Surface Finish** | ENIG (recommended) |
-| **Stackup** | Signal / GND / Signal / Power / GND / Signal / Signal / GND / Power / Signal / GND / Signal |
+| **Stackup** | Signal / GND / Signal / GND / Power / Power / Power / Power / GND / Signal / GND / Signal |
 
 ---
 
@@ -72,18 +70,18 @@ The board features a dense 12-layer stackup to accommodate DDR memory routing, h
 
 | Layer | Function |
 |-------|----------|
-| L1 | Top signal — component placement, fine routing |
+| L1 | Signal — Top copper, component placement & fine routing |
 | L2 | Ground plane |
-| L3 | Signal — DDR and high-speed routing |
-| L4 | Power plane (VDD_DDR, 1V375, etc.) |
-| L5 | Signal |
-| L6 | Ground plane |
-| L7 | Ground plane |
-| L8 | Signal |
-| L9 | Power plane (3V3, 1V5, 2V5) |
-| L10 | Signal — DDR and high-speed routing |
+| L3 | Signal — High-speed & DDR routing |
+| L4 | Ground plane |
+| L5 | Power plane |
+| L6 | Power plane |
+| L7 | Power plane |
+| L8 | Power plane |
+| L9 | Ground plane |
+| L10 | Signal — DDR & high-speed routing |
 | L11 | Ground plane |
-| L12 | Bottom signal — passive components |
+| L12 | Signal — Bottom copper, passive components |
 
 ---
 
@@ -137,10 +135,3 @@ The original schematic is released under open-source hardware terms by the Wandb
 
 ---
 
-## 🤝 Contact
-
-If you have questions about the design or want to collaborate, feel free to open an issue or reach out via GitHub.
-
----
-
-*Designed with passion for embedded hardware engineering.* 🔌
