@@ -59,12 +59,10 @@ Based on the official iMX6 Rex Module specification from [imx6rex.com](https://w
 | Parameter | Value |
 |-----------|-------|
 | **Layers** | 12 |
-| **Board Dimensions** | 70 × 40 mm |
 | **EDA Tool** | Altium Designer |
 | **Routing Style** | Controlled impedance, length-matched differential pairs |
 | **Mounting Holes** | 4× GND-connected mounting points (corner) |
 | **Connectors** | J1, J2 — high-density board-to-board |
-| **Surface Finish** | ENIG (recommended) |
 
 ---
 
@@ -172,11 +170,6 @@ This project gave me hands-on experience with:
 
 ### Original Schematic
 - **Project:** [iMX6 Rex Module](https://www.imx6rex.com/)
-- **Designed by:** [FEDEVEL Academy](https://www.fedevel.com/academy/)
-- **License:** [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
-
-[![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
-
 ### PCB Layout
 - **Designed by:** Tharinda (this repository)
 - **Tool used:** Altium Designer
@@ -184,13 +177,7 @@ This project gave me hands-on experience with:
 
 I want to give **full credit to FEDEVEL Academy** for releasing this excellent reference design as open source — it's an invaluable resource for anyone learning advanced PCB design. The original schematic, BOM, and reference documents are all available at [imx6rex.com](https://www.imx6rex.com/).
 
----
 
-## 📄 License
-
-The original iMX6 Rex schematic is licensed under **CC BY-NC 4.0** by FEDEVEL Academy and remains the intellectual property of the original authors.
-
-The PCB layout in this repository is my own original work, created from scratch using the open-source schematic as electrical reference. It is shared here for **educational and personal use only**, in keeping with the non-commercial spirit of the original license.
 
 ---
 
